@@ -1,0 +1,363 @@
+header {font-family: 'Oswald', sans-serif;
+			font-size: 40px;
+				text-align: center;
+					text-decoration: none; 
+						background-image: url("gradient.jpg");
+						margin-top: 0;
+							margin-bottom: 0;}
+h1 {color: white;
+		margin-top: 0;
+			margin-bottom: 0;}  
+a:link {text-decoration: none;}
+a:hover {}
+a:visited {}
+nav {display: block;
+		letter-spacing: 1px;
+			display: block;}
+nav ul {list-style-type: none;
+				display: block;
+					font-family: 'Slabo 27px', serif;
+						background-color: #E8FFB7;
+							color: #9878FF;
+								margin-top: 0;
+									margin-bottom: 0;
+										padding-top: 10px;
+											padding-bottom: 10px;
+												text-align: center;}
+nav li {display: inline-block;
+			padding-left: 30px;
+				padding-right: 30px;}
+nav a:link {color: #A081EA;
+				font-weight: bold;}
+nav a:hover {text-shadow: 0 0 6px #63497A;}
+body {font-family: 'Slabo 27px', serif;}
+nav ul ul { position: absolute; 
+				background-color: #E8FFB7;
+					padding: 0; 
+						text-align: left; 
+							display: none; }
+nav ul ul li {display: block; 
+				width: 5em; 
+					padding-left: 1em; 
+						margin-left: 0;}
+nav li:hover ul { display: block;
+					text-align: left;}
+#ad {color: #DA9DD9;
+		margin-right: 10px;
+			margin-top: 20px;
+				display: inline;
+					float: right;
+						text-align: right;
+							font-size: 70px;
+							 font-family: 'Oswald', sans-serif;}
+#bella {display: inline;
+			margin: 20px;
+				border: 15px solid #DA9DD9;}
+#indexlip {display: inline;}
+#ad2 {color: #D3A588;
+		display: inline-block;
+			text-align: right;
+				float: right;
+					font-size: 35px;
+					 font-family: 'Oswald', sans-serif;}
+#bella1 {display: inline;
+			margin: 20px;
+				border: 15px solid #DA9DD9;
+					float: right;}
+#video {margin: 0 auto;
+			border: 15px solid #DA9DD9;
+				display: inline;}
+#vidtext {display: inline;
+	color: #9B746D;
+		float: right;
+			text-align: right;
+				font-size: 65px;
+					margin-right: 20px;
+						font-family: 'Oswald', sans-serif;}
+.who {text-align: right;
+			color: #DA9DD9;
+				margin-right: 10px;
+						font-size: 75px;
+							font-family: 'Oswald', sans-serif;}
+#smallswatch1 {float: right;
+					margin-right: 5px;}
+
+.column {
+    float: left;
+    width: 33.33%;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+.shopcolumn1 {
+    float: left;
+    width: 50%;}
+.shopcolumn2 {
+    float: right;
+    width: 50%;}
+.current {color: #6B77AD;
+			margin-left: 15px;
+				text-align: right;
+					margin-right: 10px;
+						font-size: 30px;}
+.now {color: #DA9DD9;
+			margin-left: 15px;}
+#lipstickline {float: right;}
+.describe {margin-left: 15px;
+			color: #6B77AD;
+				text-align: right;
+					margin-right: 10px;
+						font-size: 20px;}
+#shopmodel {border: 15px solid #DA9DD9;
+				margin-right: 10px;
+					float: right;
+						margin-bottom: 30px;}
+#shopmodel4 {border: 15px solid #DA9DD9;
+				margin-right: 10px;
+					float: left;
+						margin-bottom: 15px;}
+#buy {max-width: 500px; 
+		margin-top: 30px;
+			float: right;
+				text-align: right;}
+.gallery {position: relative;
+	height: 200px;
+		display: inline;}
+.gallery ul {list-style-type: none;
+    width: 300px; }
+.gallery li {display: inline;
+				float: left;
+				padding: 10px;}
+.gallery img {border-style: none;
+				}
+.gallery a {text-decoration: none;
+			font-style: italic;
+			color: #9B746D;}
+.gallery span { position: absolute;
+                left: -1000px;
+               opacity: 0; 
+}
+.gallery a:hover span {     
+			position: absolute;
+			top: 16px;
+			left: 320px; 
+			text-align: center; 
+            opacity: 1; 
+}
+figure {position: absolute;
+		left: 280px;
+		text-align: center;
+		opacity: .25; }	
+.lastcallheader {color: #6B77AD;
+			margin-left: 15px;
+						font-size: 30px;}	
+.lastcall {margin-left: 15px;
+			color: #6B77AD;
+						font-size: 20px;}
+.imgside {color: #6B77AD;
+				margin-right: 10px;
+					text-align: right;
+						width: 400px;
+							float: right;
+								font-size: 20px;}
+.polishdrip {float: right;}
+.polishdripflip {float: left;
+					display: inline;}
+#nailpolishspace {margin-left: 50px;}
+.veganh1 {color: #6B77AD;
+			margin-top: 20px;}
+.veganp {color: #6B77AD;
+			font-size: 20px;}
+#veganlogo {float: left;
+				margin: 15px;}
+.veganborder {border: 15px solid #DA9DD9;
+				padding: 10px;
+					height: 385px;
+						margin-top: 15px;
+							width: 625px;}
+.vegancolumn1 {
+    float: left;
+    width: 60%;}
+.vegancolumn2 {
+    float: right;
+    width: 40%;}
+#crueltyfree {margin-left: 100px;
+				margin-bottom: 15px;}
+#promiseborder {border: 15px solid #DA9DD9;
+				padding: 15px;
+					height: 425px;
+						margin-top: 170px;
+							width: 355px;}
+#aboutcolumn1 {width: 50%;
+				float: left;}
+#aboutcolumn2 {width: 50%;
+				float: right;}
+#aboutborder1 {border: 15px solid #DA9DD9;
+				padding: 15px;
+					height: 600px;
+						margin-top: 15px;
+							width: 400px;}
+#aboutlips {float: left;
+				margin-left: 15px;
+					margin-top: 15px;
+					border: 15px solid #DA9DD9;
+						margin-bottom: 20px;}
+#beginp {color: #6B77AD;
+					width: 400px;
+							font-size: 20px;
+								margin-left: 15px;
+									margin-top: 20px;}
+#beginp2 {color: #6B77AD;
+				text-align: right;
+					width: 500px;
+						float: right;
+							font-size: 20px;
+								margin-right: 10px;}
+#croplips {float: right;
+			margin-right: 10px;
+				border: 15px solid #DA9DD9;}
+#demo {margin-left: 30px;
+		font-size: 30px;
+			color: #9878FF;}
+#colors {color: #DA9DD9;
+			font-size: 35px;
+					 font-family: 'Oswald', sans-serif;
+						margin: 15px;}
+#lipstickmodel1 {float: right;}
+#lipstickmodel2 {float: right;
+					margin-top: 30px;}
+#christmas {width: 500px;
+				float: right;}
+#glittergloss {width: 500px;
+				float: right;}
+.imageright {float: right;}
+#nailpolishmodel {float: right;
+					margin-right: 10px;
+						border: 15px solid #DA9DD9;
+							margin-top: 100px;
+								margin-bottom: 15px;}
+#polishwidth {width: 500px;}
+#polishwidth2 {width: 550px; float: right;}
+input, textarea {display: block;}
+input[type="submit"] {display: inline;
+						margin-left: 137px;
+							background:#ccc; 
+								border-style: none;
+									border-radius: 5px;
+										background-color: #DA9DD9;
+											padding: 5px;
+											 font-family: 'Oswald', sans-serif;
+												color: white;}
+input[type="reset"] {display: inline;
+						margin-left: 10px;
+						border-radius: 5px;
+							background:#ccc; 
+								border-style: none;
+									border-radius: 5px;
+										background-color: #DA9DD9;
+											padding: 5px;
+											 font-family: 'Oswald', sans-serif;
+												color: white;}
+input[type="text"] {font-family: 'Slabo 27px', serif;}
+input[type="email"] {font-family: 'Slabo 27px', serif;}
+textarea {font-family: 'Slabo 27px', serif;}
+#contactmodel {border: 15px solid #DA9DD9;
+				margin: 15px;}
+form {margin-left: 15px;
+		font-size: 20px;
+			color: #9B746D;}
+#yes {display: inline-block;}
+#no {display: inline-block;}
+#contactform {margin-left: 15px;
+				font-size: 30px;
+					color: #9B746D;}
+#contactinfo {margin-left: 15px;
+				font-size: 20px;
+					color: #9B746D;}
+.contactlink {text-decoration: none;
+				color: #9B746D;}
+a {text-decoration: none;}
+#required {margin-left: 15px;
+			color: #9B746D;}
+#swatch1 {float: right;
+			margin-top: 65px;}
+#lab2 {margin: 15px;
+		border: 15px solid #DA9DD9;}
+#prodspace {margin-left: 15px;}
+#lablipstick {margin-right: 15px;
+				margin-top: 40px;
+					border: 15px solid #DA9DD9;
+						float: right;}		
+footer {font-size: 80%;
+			text-align: center;
+				padding-top: 5px;
+					padding-bottom: 5px;
+						background-color: black;
+							color: white;
+							 position: relative;
+								bottom: 0;
+									width: 100%;}
+@media only screen and (max-width: 64em) {
+	body {margin: 0; background-color: #FFFFFF;}
+	#wrapper {min-width: 0; width: auto; box-shadow: none; border: none;}
+	header {padding-top: 0.5em; padding-bottom: 0.5em; padding-left: 0; height: auto;}
+	h1 {letter-spacing: 0.1em;}
+	main {margin-left: 0;}
+	nav {float: none; width: auto; text-align: center; padding: 0.5em;}
+	nav li {display: inline; padding-top: 0.25em; padding-right: 0.75em; padding-bottom: 0.25em; padding-left: 0.75em;}
+	#bella {display: none;}
+	#bella1 {display: none;}
+	#aboutlips {display: none;}
+	#croplips {display: none;}
+	#lipswatchesshop {display: none;}
+	#shopmodel {display: none;}
+	#shopmodel4 {display: none;}
+	#crueltyfree {display: none;}
+	#lipstickmodel1 {display: none;}
+	#lipstickmodel2 {display: none;}
+	#nailpolishmodel {display: none;}
+	#contactmodel {display: none;}
+	.imageright {display: none;}
+	footer {margin-left: 0;}
+	.shopcolumn1 {min-width: 300px;}
+	.shopcolumn2 {min-width: 300px;}
+	.who {font-size: 35px;}
+	#aboutcolumn1 {min-width: 300px;}
+	#aboutcolumn2 {min-width: 300px;}
+	.vegancolumn1 {max-width: 300px;}
+	.vegancolumn2 {max-width: 300px;}
+	#swatch1 {display: none;}
+	#lab2 {display: none;} 
+	#lablipstick {display: none;}
+}
+@media only screen and (max-width: 37.5em) {
+	main {padding-top: 0.1em; padding-right: 1em; padding-bottom: 0.1em; padding-left: 1em; font-size: 90%;}
+	h1 {font-size: 2em;}
+	nav { padding: 0;}
+	nav li {display: block; margin: 0; }
+	nav a {display: block;}
+	#bella {display: none;}
+	#bella1 {display: none;}
+	#indexlip {}
+	#ad {font-size: 35px; display: block;}
+	#ad2 {font-size: 20px; display: block; float: right;}
+	#vidtext {display: none;}
+	.videodiv {display: none;}
+	footer {display: block; margin-top: 400px;}
+	#mobile {display: inline;}
+	#desktop {display: none;}
+	.shopcolumn1 {min-width: 100px;}
+	.shopcolumn2 {min-width: 100px;}
+	.who {font-size: 30px;}
+	#aboutcolumn1 {max-width: 100px; display: block;}
+	#aboutcolumn2 {max-width: 100px; display: block;}
+	.vegancolumn1 {max-width: 100px; display: block;}
+	.vegancolumn2 {max-width: 100px; display: block;}
+	.veganborder {border: none;}
+	#promiseborder {border: none;}
+	#veganlogo {display: none;}
+	#swatch1 {display: none;}
+	#christmascollectiontext {display: none;}
+	#lab2 {display: none;} 
+	#lablipstick {display: none;}
+}

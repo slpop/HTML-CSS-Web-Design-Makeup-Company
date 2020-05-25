@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SLP cosmetics - about</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="finalproject.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+<header>
+<a href="index.html"><h1>SLP cosmetics</h1></a>
+</header>
+<nav>
+<ul>
+<li><a href="about.html">about</a> &nbsp;</li>
+<li><a href="shop.html">shop</a> &nbsp;
+	<ul>
+		<li><a href="lipstick.html">lipstick</a></li>
+		<li><a href="lipgloss.html">lip gloss</a></li>
+		<li><a href="nailpolish.html">nail polish</a></li>
+	</ul>
+</li>
+<li><a href="vegan.html">our vegan promise</a> &nbsp;</li>
+<li><a href="production.html">product production</a> &nbsp;</li>
+<li><a href="contact.html">contact</a> &nbsp;</li>
+</ul>
+</nav>
+<main>
+<div class="row">
+<div id="aboutcolumn1">
+<img id="aboutlips" src="glossmodel1.jpg" alt="color swatches" width="523" height="524">
+<h2 id="colors">colors.</h2>
+<p id="beginp">We do colors. That's our thing. Thousands of lip shades get tested over and over again in labs to get just the right shade. Consumers only 
+ever see the shades that some company executives decided they would like. We don't want to try and guess what you want. We'll give you everything so that 
+you can have the power of choosing for yourself. Having a rolling production of thousands of colors at a time isn't feasible for a tiny little company like us,
+ so we present the options in bite-sized pieces that you can work off while you wait for the new stuff. We get so excited about new products that we keep 
+ a countdown to the next collection release right here. Check back on December 25th after 8 am to grab the new stuff as soon as possible.
+</p>
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 25, 2018 08:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+
+</div>
+<div id="aboutcolumn2">
+<h1 class="who">who we are.</h1>
+<p id="beginp2">It all started with one heart, two pet bunnies, and a passion for beauty. Our founder, SLP, was a makeup enthusiast from a very young 
+age. This love, combined with accumulated business skills, engendered the birth of this company. She had used makeup religiously, though not without the
+ guilt of buying products that had been tested on animals. She wanted to make a high-quality, vegan, cruelty-free makeup brand that represented her and 
+ everyone else who loves animals and makeup with the same amount of respect. Thus came the birth of SLP cosmetics and a world of options as to how to 
+ make our products stand out. We decided to make them one-of-a-kind, just like our brand, by producing in limited quantities so as to always give our
+ customers something unique. Standing out and being vegan never looked so good. We hope that our products look so good on you that they'll spark conversation 
+ with your admirers about vegan makeup and how it makes an impact on both humans and animals.
+</p>
+<br>
+<br>
+<br><br><br><br><br><br>
+<img id="croplips" src="croplips.jpg" alt="lips" width="531" height="498">
+</div>
+</div>
+</main>
+<footer>
+&copy; 2018 SLP cosmetics  
+</footer>
+</body>
+</html>
